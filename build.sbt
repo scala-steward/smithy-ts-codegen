@@ -120,7 +120,7 @@ lazy val core = project
       // codegen keys off `@streaming` members, so nothing scala-specific from
       // smithy4s-ndjson is needed here.
       "org.polyvariant" % "smithy4s-ndjson-protocol" % smithy4sNdjsonVersion,
-      "org.scalameta" %% "munit" % "1.3.5" % Test,
+      "org.scalameta" %% "munit" % "1.3.6" % Test,
     ),
   )
 
